@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {box-sizing: border-box;}
+body {
+ font-family: sans-serif;
+ padding: 5px;
+ background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+ padding: 5px;
+ text-align: center;
+ color: white;
+ background: #002060;
+}
+/* Style the top navigation bar */
+.topnav {
+ overflow: hidden;
+ background-color: #ecab72;
+}
+/* Style the topnav links */
+.topnav a {
+ float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+ color: #002060;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+ float: left;
+}
+/* middle column */
+.middlecolumn {
+ float: left;
+ width: 60%;
+ padding: 5px;
+}
+/* Right column */
+.rightcolumn {
+ float: left;
+ width: 20%;
+ background-color: #f1f1f1;
+ padding: 5px;
+}
+/* Fake image */
+.fakeimg {
+ background-color: #aaa;
+ text-align: center;
+ width: 100%;
+ padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+ background-color: white;
+ padding: 20px;
+ margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+/* Footer */
+.footer {
+ padding: 5px;
+ text-align: center;
+ color: white;
+ background: #002060;
+}
+</style>
+</head>
+<body>
+ <div class="header">
+ <h1>Welcome to <br> Anup and Bishnu Website</h1>
+ <p></p>
+ </div>
+ <div class="topnav">
+ <a href="#">Link1</a>
+ <a href="#">Link2</a>
+ <a href="#">Link3</a>
+ <a href="#" style="float:right">Home</a>
+ </div>
+ <div class="row">
+ <div class="leftcolumn">
+ <div class="card">
+ <img src="anup.jpg" height="250px" width="120px"><p>Anup Gurung</p>
+ <img src="bishnu.jpg" height="250px"width="120px"><p>Bishnu Kumari</p>
+ </div>
+ </div>
+ <div class="middlecolumn">
+ <div class="card">
+ <h2>Sherubtse College</h2>
+ <img src="sherubtse.jpg" height="450px;"width="760px"><p></p> 
+ <p>Sherubtse College offers a diverse range of courses, including specialized programs like 
+  the Bachelor of Economics and Political Science (EPS), Bachelor of Digital Communications and
+  Project Management (DCPM), Bachelor of Data Science and Data Analytics (DSDA), B.Sc. in Life Science, 
+  B.Sc. in Chemistry, B.Sc. in Physics, and B.Sc. in Mathematics. Beyond its academic offerings, Sherubtse 
+  College is known for its excellent studying environment, fostering a culture of intellectual growth and 
+  holistic development. </p>
+ </div>
+ </div>
+ <div class="rightcolumn">
+ <div class="about">
+ <div class="card">
+ <h2>About Us</h2>
+ <img src="logo.jpg" height="95px" width="170px">
+ <p>We are both studying Data Science and Data Analytics in our second year at 
+  Sherubtse College. </p>
+     </div>
+     </div>
+     <div class="follow">
+     <div class="card">
+     <h3>For more information</h3>
+     <p>Contact us!<br> 17567536/17689054 <br> anupgurung@gmail.com <br> bishnu@gmail.com</p>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="footer">
+     </div>
+    </body>
+    </html>
